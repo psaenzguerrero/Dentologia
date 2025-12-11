@@ -5,6 +5,9 @@ import Home from './pages/Home.jsx'
 import Treatments from './pages/Treatments.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
+import Team from './pages/Team.jsx'
+import Faq from './pages/Faq.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
   return (
@@ -16,6 +19,9 @@ export default function App() {
           <Route path="/tratamientos" element={<Treatments />} />
           <Route path="/sobre-nosotros" element={<About />} />
           <Route path="/contacto" element={<Contact />} />
+          <Route path="/equipo" element={<Team />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

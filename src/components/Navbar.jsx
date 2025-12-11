@@ -6,6 +6,8 @@ const navItems = [
   { to: '/', label: 'Inicio' },
   { to: '/tratamientos', label: 'Tratamientos' },
   { to: '/sobre-nosotros', label: 'Sobre nosotros' },
+  { to: '/equipo', label: 'Equipo' },
+  { to: '/faq', label: 'FAQ' },
   { to: '/contacto', label: 'Contacto' },
 ]
 
